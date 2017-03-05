@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { InventoryAppComponent } from './inventory-app/inventory-app.component';
+import { ProductsListComponent } from './products-list/products-list.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InventoryAppComponent
+    InventoryAppComponent,
+    ProductsListComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
